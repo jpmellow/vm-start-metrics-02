@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 dark:text-white;
+  }
+}
+
+@layer components {
+  .flowchart-connection {
+    @apply stroke-2 stroke-blue-500;
+  }
+}
+
+@layer utilities {
+  .gradient-hover {
+    @apply hover:bg-gradient-to-r from-blue-500 to-purple-600;
+  }
+}
